@@ -5,8 +5,8 @@ import pymongo
 from pymongo import MongoClient
 import time
 
-START_TIME = 1388534400
-END_TIME = 1404172800
+START_TIME = 1393631999     # Y-M-D: 2014-3-1 00:00:00
+END_TIME = 1396310400       # Y-M-D: 2014-4-1 00:00:00
 
 
 def parse(path):
@@ -37,6 +37,8 @@ def insert_item_metadata(meta_collection, meta_path):
     if not meta_collection:
         meta_collection.insert_many(item_meta_data)
 
+    meta_collection.create_index([('asin', pymongo.ASCENDING)])
+
 
 def insert_item_review(review_collection, review_path):
     item_reviews = []
@@ -65,8 +67,35 @@ db = client.product
 meta_collection = db.metadata
 review_collection = db.review
 
-insert_item_review(review_collection, review_data_path)
+# insert_item_metadata(meta_collection, meta_data_path)
+# insert_item_review(review_collection, review_data_path)
 
-print("--- %s seconds ---" % (time.time() - start_time))
+db.review.aggregate([
+    {'$lookup': {'from': "metadata",
+                 'localField': "asin",
+                 'foreignField': "asin",
+                 'as': "metadata"}
+     },
+    {'$unwind': "$metadata"},
+    {'$project': {
+            "_id": 1,
+            "asin": 1,
+            "reviewerID": 1,
+            "reviewerName": 1,
+            "helpful": 1,
+            "unixReviewTime": 1,
+            "reviewText": 1,
+            "overall": 1,
+            "summary": 1,
+            "itemTitle": "$metadata.title",
+            "itemPrice": "$metadata.price",
+            "itemRelated": "$metadata.related",
+            "itemSalesRank": "$metadata.salesRank",
+            "itemBrand": "$metadata.brand",
+            "itemCategories": "$metadata.categories"
+        }
+     },
+    {'$out': "item_review"}
+])
 
 
