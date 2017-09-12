@@ -1,0 +1,185 @@
+python: can't open file 'jupyter-notebook': [Errno 2] No such file or directory
+python: can't open file 'jupyter-notebook': [Errno 2] No such file or directory
+python: can't open file 'jupyter-notebook': [Errno 2] No such file or directory
+[W 10:28:30.331 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 10:28:30.581 NotebookApp] Serving notebooks from local directory: C:\Workspace\PyCharm\product-review
+[I 10:28:30.581 NotebookApp] 0 active kernels 
+[I 10:28:30.581 NotebookApp] The Jupyter Notebook is running at: http://127.0.0.1:8888/
+[I 10:28:30.581 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:28:36.752 NotebookApp] 404 GET /favicon.ico (127.0.0.1) 25.00ms referer=http://127.0.0.1:8888/view/logs_xp.log
+[I 10:28:55.592 NotebookApp] Kernel started: db05ef78-a0ec-4adf-a482-13f8b507beff
+[IPKernelApp] ERROR | Exception while loading config file C:\Users\310195644\.ipython\profile_default\ipython_config.py
+Traceback (most recent call last):
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\application.py", line 562, in _load_config_files
+    config = loader.load_config()
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\loader.py", line 457, in load_config
+    self._read_file_as_dict()
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\loader.py", line 489, in _read_file_as_dict
+    py3compat.execfile(conf_filename, namespace)
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\ipython_genutils\py3compat.py", line 280, in execfile
+    exec(compiler(scripttext, filename, 'exec'), glob, loc)
+  File "C:\Users\310195644\.ipython\profile_default\ipython_config.py", line 17, in <module>
+    c.NotebookApp.password = open(PWDFILE).read().strip()
+IOError: [Errno 2] No such file or directory: 'nbpasswd_xinpang.txt'
+[I 10:36:55.483 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:38:55.598 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[W 10:39:01.882 NotebookApp] 404 GET /api/kernels/6bf39d3f-4838-47ff-a9ea-e322d6fc06f6/channels?session_id=ABFE5DA13DF14A7E8EABE6DFEFD78574 (127.0.0.1): Kernel does not exist: 6bf39d3f-4838-47ff-a9ea-e322d6fc06f6
+[W 10:39:01.884 NotebookApp] 404 GET /api/kernels/6bf39d3f-4838-47ff-a9ea-e322d6fc06f6/channels?session_id=ABFE5DA13DF14A7E8EABE6DFEFD78574 (127.0.0.1) 10.00ms referer=None
+[I 10:40:56.634 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:42:55.467 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:44:55.591 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:54:56.109 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:56:55.496 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:00:55.519 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:02:55.551 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:04:55.533 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:06:56.733 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:48:56.444 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:50:55.757 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 13:24:55.973 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 13:26:55.846 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 13:28:57.276 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 13:30:56.023 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:18:56.062 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:20:55.983 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:35:55.013 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:37:55.966 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:39:54.996 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:43:54.990 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:45:55.953 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:47:55.517 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:49:54.983 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 14:51:55.917 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:07:55.105 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:09:55.091 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:18:41.789 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:20:20.450 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 15:20:41.885 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:22:41.808 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:26:41.790 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:28:42.296 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:30:35.417 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 15:30:40.884 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 15:30:41.831 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:30:45.331 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:30:48.709 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 15:32:41.832 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:34:41.858 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:36:41.845 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:38:41.875 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:46:42.255 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:48:41.913 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:50:41.915 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:52:41.911 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:54:41.907 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:56:41.937 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 15:58:41.947 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:02:41.957 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:04:42.000 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:06:41.982 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:08:41.986 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:10:42.009 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:12:42.825 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:14:41.954 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:16:41.930 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:18:41.921 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:20:41.920 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:22:41.914 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:24:41.920 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 16:26:41.914 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[W 18:29:11.767 NotebookApp] WebSocket ping timeout after 7169987 ms.
+[I 20:12:41.536 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 20:31:45.673 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 20:31:53.625 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 20:31:55.678 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 20:32:05.760 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 20:34:39.217 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 20:35:06.262 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 20:36:39.187 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 20:40:40.437 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 20:42:39.243 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 20:44:39.239 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 20:46:39.233 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 20:50:39.233 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 21:12:39.247 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:28:39.421 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:30:39.470 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:33:56.716 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:34:39.411 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:34:56.585 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:36:41.257 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:40:41.259 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:41:27.046 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:42:41.263 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:44:41.239 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:46:41.266 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:56:41.263 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 22:58:41.272 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 23:02:41.298 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 23:26:41.502 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 23:28:41.332 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 23:50:41.362 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 23:56:27.717 NotebookApp] Kernel restarted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[IPKernelApp] ERROR | Exception while loading config file C:\Users\310195644\.ipython\profile_default\ipython_config.py
+Traceback (most recent call last):
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\application.py", line 562, in _load_config_files
+    config = loader.load_config()
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\loader.py", line 457, in load_config
+    self._read_file_as_dict()
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\loader.py", line 489, in _read_file_as_dict
+    py3compat.execfile(conf_filename, namespace)
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\ipython_genutils\py3compat.py", line 280, in execfile
+    exec(compiler(scripttext, filename, 'exec'), glob, loc)
+  File "C:\Users\310195644\.ipython\profile_default\ipython_config.py", line 17, in <module>
+    c.NotebookApp.password = open(PWDFILE).read().strip()
+IOError: [Errno 2] No such file or directory: 'nbpasswd_xinpang.txt'
+[I 23:56:41.392 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 23:58:41.375 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 23:58:44.747 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:02:41.424 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:04:41.654 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:06:42.295 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:08:41.390 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:12:41.388 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:14:41.397 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:16:42.423 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:18:42.242 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:20:41.401 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:22:41.404 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:24:08.486 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 00:24:41.405 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:26:41.411 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:28:41.413 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:30:19.665 NotebookApp] Kernel interrupted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[I 00:30:41.851 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:32:41.457 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:34:42.309 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:36:42.368 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[W 00:37:47.134 NotebookApp] 404 GET /favicon.ico (127.0.0.1) 9.00ms referer=http://127.0.0.1:8888/view/data/test.csv
+[I 00:38:41.463 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:40:41.477 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:42:41.463 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:44:41.446 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:46:41.479 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:48:41.480 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:50:42.322 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:52:41.496 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:54:41.490 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:56:41.492 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 00:58:41.470 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 01:00:41.496 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 01:02:41.506 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 01:04:42.341 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 01:40:41.558 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 01:54:41.582 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 01:58:42.450 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:00:43.477 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:02:41.596 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:04:41.596 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:06:41.632 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:30:41.619 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:32:41.628 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:42:41.648 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:48:41.673 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 02:52:41.661 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:17:33.194 NotebookApp] 302 GET / (127.0.0.1) 37.00ms
