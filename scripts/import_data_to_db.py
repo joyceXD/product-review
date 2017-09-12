@@ -56,8 +56,6 @@ def insert_item_review(review_collection, review_path):
         review_collection.insert_many(item_reviews)
 
 
-start_time = time.time()
-
 # path = 'https://s3-eu-west-1.amazonaws.com/bigdata-team/job-interview/metadata.json.gz'
 review_data_path = '../data/item_dedup.json.gz'
 meta_data_path = '../data/metadata.json.gz'
@@ -67,8 +65,8 @@ db = client.product
 meta_collection = db.metadata
 review_collection = db.review
 
-# insert_item_metadata(meta_collection, meta_data_path)
-# insert_item_review(review_collection, review_data_path)
+insert_item_metadata(meta_collection, meta_data_path)
+insert_item_review(review_collection, review_data_path)
 
 db.review.aggregate([
     {'$lookup': {'from': "metadata",

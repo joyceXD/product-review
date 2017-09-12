@@ -183,3 +183,60 @@ IOError: [Errno 2] No such file or directory: 'nbpasswd_xinpang.txt'
 [I 02:48:41.673 NotebookApp] Saving file at /scripts/product_analysis.ipynb
 [I 02:52:41.661 NotebookApp] Saving file at /scripts/product_analysis.ipynb
 [I 09:17:33.194 NotebookApp] 302 GET / (127.0.0.1) 37.00ms
+[W 09:32:56.796 NotebookApp] delete /scripts/preprocess_data.py
+[I 09:33:34.332 NotebookApp] Saving file at /scripts/sentiment_util.py
+[I 09:35:39.256 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:37:39.989 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:39:39.234 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:41:39.219 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:43:39.980 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:45:39.213 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:47:39.548 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:51:39.256 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:53:39.469 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:55:39.260 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:57:39.266 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 09:59:39.282 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:01:39.278 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:03:39.259 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:05:40.331 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:07:39.815 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:11:40.726 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:37:40.427 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:39:40.653 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:41:39.657 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:43:39.621 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:44:15.030 NotebookApp] Saving file at /scripts/sentiment_util.py
+[I 10:44:19.141 NotebookApp] Saving file at /scripts/sentiment_util.py
+[I 10:45:40.424 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:47:41.105 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:49:39.684 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:51:39.361 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:53:40.124 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:55:39.352 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 10:57:39.369 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:11:39.388 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:13:39.404 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:15:39.671 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:17:39.688 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:19:39.397 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:20:38.303 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:20:41.203 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:23:39.414 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:23:53.127 NotebookApp] Kernel restarted: db05ef78-a0ec-4adf-a482-13f8b507beff
+[IPKernelApp] ERROR | Exception while loading config file C:\Users\310195644\.ipython\profile_default\ipython_config.py
+Traceback (most recent call last):
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\application.py", line 562, in _load_config_files
+    config = loader.load_config()
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\loader.py", line 457, in load_config
+    self._read_file_as_dict()
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\traitlets\config\loader.py", line 489, in _read_file_as_dict
+    py3compat.execfile(conf_filename, namespace)
+  File "C:\Users\310195644\AppData\Local\Continuum\Anaconda2\lib\site-packages\ipython_genutils\py3compat.py", line 280, in execfile
+    exec(compiler(scripttext, filename, 'exec'), glob, loc)
+  File "C:\Users\310195644\.ipython\profile_default\ipython_config.py", line 17, in <module>
+    c.NotebookApp.password = open(PWDFILE).read().strip()
+IOError: [Errno 2] No such file or directory: 'nbpasswd_xinpang.txt'
+[I 11:24:59.078 NotebookApp] Saving file at /scripts/sentiment_util.py
+[I 11:25:39.671 NotebookApp] Saving file at /scripts/product_analysis.ipynb
+[I 11:25:59.730 NotebookApp] Saving file at /scripts/import_data_to_db.py
